@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: black;
+  }
+
+
+.partition {
+    height: 600px;
+    background-color: black;
+}
+.container {
+    display: flex;
+    overflow:hidden;
+    height: 1200px;
+}
+.layer {
+    background-repeat: repeat;
+    background-size:cover;
+    width:1920px;
+    height:3600px;
+    position:absolute;
+    z-index: -1;
+}
+.textbox {
+    width:100vw;
+    color: white;
+    text-align: center;
+    font-size: 250px;
+    top:1800px;
+    z-index: -1;
+}
+
+#autumn1 {
+    top:600px;
+    background-image: url(../img/a1.png);
+}
+#autumn2 {
+    top:800px;
+    background-image: url(../img/a2.png);
+}
+#autumn3 {
+    top:1000px;
+    background-image: url(../img/a3.png);
+}
+#autumn4 {
+    top:1200px;
+    background-image: url(../img/a4.png);
+}
+#autumn5 {
+    top:1400px;
+    background-image: url(../img/a5.png);
+}
+#autumn6 {
+    top:1600px;
+    background-image: url(../img/a6.png);
+}
+#autumn7 {
+    top:1800px;
+    background-image: url(../img/a7.png);
+}
